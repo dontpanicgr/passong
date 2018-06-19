@@ -32,15 +32,8 @@ function copyToClipboard()  {
   document.execCommand('copy')
   textField.remove()
 }
-const text = <span>Click to copy!</span>;
 
-document.onkeyup=function(e){
-  var e = e || window.event; // for IE to cover IEs window object
-  if(e.altKey && e.which == 65) {
-       alert('Keyboard shortcut working!');
-       return false;
-  }
-}
+const text = <span>Click to copy!</span>;
 
 class App extends Component {
   render() {
