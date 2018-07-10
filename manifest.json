@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Passong",
+  "name": "Generate strong passwords from song lyrics that are stupidly easy to remember",
   "icons": [
     {
       "src": "favicon.ico",
