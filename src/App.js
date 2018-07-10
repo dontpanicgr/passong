@@ -15,7 +15,7 @@ var song8 = ["In this life in this life in this life", "🦁 Bob Marley - Coming
 
 /* GENERATE */
 function generate() {
-  var values = [song1,song3,song2,song5,song4,song7,song6, song8],
+  var values = [song1,song3,song2,song5,song4,song7,song6,song8],
       valueToUse = values[Math.floor(Math.random() * values.length)];
   // do something with the selected value
   document.getElementById("song").innerHTML = valueToUse[0];
@@ -33,7 +33,7 @@ function copyToClipboard()  {
   textField.remove()
 }
 
-const text = <span>Click to copy!</span>;
+const text = <span>Click to copy password!</span>;
 
 class App extends Component {
   render() {
