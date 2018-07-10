@@ -1,11 +1,14 @@
 # Passong
-Generate strong passwords from song lyrics that are stupidly easy to remember. No more We3ird password generators. 
-Simple full sentence passwords from popular songs.
+Generate strong passwords from song lyrics that are stupidly easy to remember. 
+No more We3ird p@sSw0rdZ. Just remember the song and then you have your password.
+
+![glyrics-demo](https://github.com/dontpanicgr/passong/raw/master/public/passong.gif)
 
 
 ## Wishlist
-- Integrate with API to fetch lyrics
+- Integrate with API (Musixmatch, Spotify)
 - Provide transformation methods when generating passwords (lowercase, uppercase, l33t writing style)
+- Integrate in forms
 
 
 ## Contribute
